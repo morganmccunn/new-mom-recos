@@ -37,6 +37,12 @@ README.md           # Non-technical curator guide (no-code instructions)
 - App and Service tabs exist but have no items yet
 - IDs go up to prod-060 (note: prod-026 is skipped)
 
+## Git workflow
+- Always work on a feature branch — never commit directly to main
+- Always create a PR for Morgan to review
+- Morgan pushes branches via GitHub Desktop (no SSH keys or gh CLI)
+- After committing: tell Morgan to open GitHub Desktop, publish the branch, then open a PR at github.com/morganmccunn/new-mom-recos/compare/<branch-name>
+
 ## How to run the local server
 ```bash
 python3 -m http.server 3000
