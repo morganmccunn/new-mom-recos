@@ -37,9 +37,24 @@ README.md           # Non-technical curator guide (no-code instructions)
 - App and Service tabs exist but have no items yet
 - IDs go up to prod-060 (note: prod-026 is skipped)
 
+## How to run the local server
+```bash
+python3 -m http.server 3000
+```
+Then open http://127.0.0.1:3000 (localhost:3000 returns 404 on this machine — use 127.0.0.1 instead). To verify it's serving from the right directory:
+```bash
+lsof -p $(lsof -ti:3000) | grep cwd
+# Should show: /Users/morganmccunn/Documents/GitHub/new-mom-recos
+```
+To kill the server: `kill $(lsof -ti:3000)`
+
 ## Last session / next steps
 > Update this section at the end of each session with what we worked on and what's next.
-- [Session history not yet recorded — update after first working session]
+- Added `image_url` field to 26/33 linked products; app.js uses it directly, falls back to Microlink for the remaining 7
+- Added 4 new content types to config.json: content, activity (app + service already existed)
+- Added 22 new recommendations: 3 apps, 6 services, 6 content, 7 activities
+- Activities use `tags` for age range (e.g. "any age", "12 months+")
+- Next: review the new cards visually, fix any styling issues, then commit + push
 
 ## Morgan's preferences
 - Keep it simple and beautiful — this is a gift for other moms, not a dev project

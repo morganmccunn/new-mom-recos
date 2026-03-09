@@ -23,6 +23,18 @@
       "icon": "star",
       "description": "People and services worth hiring",
       "categories": []
+    },
+    "content": {
+      "label": "Content",
+      "icon": "book",
+      "description": "Books, podcasts, and blogs worth consuming",
+      "categories": []
+    },
+    "activity": {
+      "label": "Activities",
+      "icon": "heart",
+      "description": "Things to do with your baby",
+      "categories": []
     }
   }
 }
