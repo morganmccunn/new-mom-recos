@@ -302,14 +302,52 @@ a:hover { text-decoration: underline; }
 }
 
 @media (max-width: 767px) {
-  .cards-in-section { grid-template-columns: 1fr; }
+  /* Layout */
+  .container { padding: 0 16px; }
 
+  /* Hero */
+  .hero { padding: 28px 0 24px; margin-bottom: 24px; }
+  .hero-tagline { font-size: 24px; }
+  .hero-bio { font-size: 15px; }
+
+  /* Tabs — horizontal scroll, no wrapping */
   .type-tabs {
     overflow-x: auto;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
+    flex-wrap: nowrap;
+    margin-left: -16px;
+    margin-right: -16px;
+    padding-left: 16px;
+    padding-right: 16px;
   }
   .type-tabs::-webkit-scrollbar { display: none; }
+
+  /* Toolbar — stack vertically */
+  .toolbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    margin-bottom: 16px;
+  }
+
+  .toolbar-right {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Hide download on mobile — not useful on phone */
+  .btn-download { display: none; }
+
+  /* Required-only + view toggle share the row evenly */
+  .btn-required-only { flex: 1; text-align: center; }
+  .view-toggle { flex-shrink: 0; }
+  .view-btn { padding: 6px 18px; font-size: 14px; }
+
+  /* Cards */
+  .cards-in-section { grid-template-columns: 1fr; }
 }
 
 /* === List view === */
