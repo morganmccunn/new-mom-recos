@@ -1,0 +1,28 @@
+{
+  "site": {
+    "title": "New Mom Recos",
+    "tagline": "Curated recommendations from one mom to another.",
+    "curator_name": "Morgan",
+    "curator_bio": "First-time mom sharing what actually worked for us in those wild early months."
+  },
+  "types": {
+    "product": {
+      "label": "Products & Gear",
+      "icon": "bag",
+      "description": "Physical items worth buying",
+      "categories": ["Clothing", "Feeding", "For Parents", "Gear", "Hygiene", "Medical", "Nursery"]
+    },
+    "app": {
+      "label": "Apps",
+      "icon": "phone",
+      "description": "The apps I actually use",
+      "categories": []
+    },
+    "service": {
+      "label": "Services",
+      "icon": "star",
+      "description": "People and services worth hiring",
+      "categories": []
+    }
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>New Mom Recos</title>
+  <meta name="description" content="Curated recommendations from one mom to another." />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header class="site-header">
+    <div class="container">
+      <span class="site-title" id="site-title">New Mom Recos</span>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="hero-tagline" id="hero-tagline"></h1>
+      <p class="hero-bio" id="hero-bio"></p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <main class="main">
+    <div class="container">
+
+      <!-- Type Tabs -->
+      <nav class="type-tabs" id="type-tabs" role="tablist" aria-label="Recommendation types">
+        <!-- Populated by JS -->
+      </nav>
+
+      <!-- Category Pills -->
+      <div class="category-pills-row" id="category-pills-row">
+        <div class="category-pills" id="category-pills" role="group" aria-label="Filter by category">
+          <!-- Populated by JS -->
+        </div>
+      </div>
+
+      <!-- Toolbar -->
+      <div class="toolbar">
+        <p class="results-count" id="results-count"></p>
+        <div class="toolbar-right">
+          <button class="btn-required-only" id="btn-required-only">Required only</button>
+          <div class="view-toggle" id="view-toggle">
+            <button class="view-btn active" data-view="grid">Grid</button>
+            <button class="view-btn" data-view="list">List</button>
+          </div>
+          <button class="btn-download" id="btn-download" onclick="downloadCSV()">
+            Download Full List ↓
+          </button>
+        </div>
+      </div>
+
+      <!-- Card Grid -->
+      <div class="card-grid" id="card-grid">
+        <!-- Populated by JS -->
+      </div>
+
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <p class="footer-text" id="footer-text"></p>
+    </div>
+  </footer>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
