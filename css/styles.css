@@ -229,23 +229,30 @@ a:hover { text-decoration: underline; }
   color: #FFFFFF;
 }
 
-.btn-download {
+/* === Download Bar === */
+.download-bar {
+  border-top: 1px solid var(--border);
+  padding: 24px 0;
+  text-align: center;
+}
+
+.btn-download-all {
   display: inline-flex;
   align-items: center;
-  gap: 4px;
-  padding: 8px 16px;
-  border-radius: 8px;
+  gap: 6px;
+  padding: 12px 28px;
+  border-radius: 10px;
   border: 1.5px solid var(--border);
   background: var(--card);
   color: var(--link);
   font-family: var(--font);
-  font-size: 13px;
+  font-size: 14px;
   font-weight: 500;
   cursor: pointer;
   transition: background 0.12s, box-shadow 0.12s;
 }
 
-.btn-download:hover {
+.btn-download-all:hover {
   background: #F0F0F2;
   box-shadow: 0 1px 4px rgba(0,0,0,0.08);
 }
@@ -310,9 +317,10 @@ a:hover { text-decoration: underline; }
   .hero-tagline { font-size: 24px; }
   .hero-bio { font-size: 15px; }
 
-  /* Tabs — horizontal scroll, no wrapping */
+  /* Tabs — horizontal scroll only, no vertical scroll */
   .type-tabs {
     overflow-x: auto;
+    overflow-y: hidden;
     -webkit-overflow-scrolling: touch;
     scrollbar-width: none;
     flex-wrap: nowrap;
@@ -320,6 +328,7 @@ a:hover { text-decoration: underline; }
     margin-right: -16px;
     padding-left: 16px;
     padding-right: 16px;
+    touch-action: pan-x;
   }
   .type-tabs::-webkit-scrollbar { display: none; }
 
@@ -338,13 +347,13 @@ a:hover { text-decoration: underline; }
     gap: 8px;
   }
 
-  /* Hide download on mobile — not useful on phone */
-  .btn-download { display: none; }
-
   /* Required-only + view toggle share the row evenly */
   .btn-required-only { flex: 1; text-align: center; }
   .view-toggle { flex-shrink: 0; }
   .view-btn { padding: 6px 18px; font-size: 14px; }
+
+  /* Download bar — full width on mobile */
+  .btn-download-all { width: 100%; justify-content: center; }
 
   /* Cards */
   .cards-in-section { grid-template-columns: 1fr; }

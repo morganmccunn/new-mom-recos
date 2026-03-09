@@ -32,6 +32,7 @@ async function init() {
     populateHero();
     buildTypeTabs();
     buildCategoryPills();
+    updateRequiredButton();
     renderCards();
     populateFooter();
   } catch (err) {
@@ -84,8 +85,20 @@ function buildTypeTabs() {
       t.setAttribute('aria-selected', t === btn ? 'true' : 'false');
     });
     buildCategoryPills();
+    updateRequiredButton();
     renderCards();
   });
+}
+
+// --- Required-only button visibility ---
+function updateRequiredButton() {
+  const btn = document.getElementById('btn-required-only');
+  const show = state.activeType === 'product';
+  btn.style.display = show ? '' : 'none';
+  if (!show) {
+    state.requiredOnly = false;
+    btn.classList.remove('active');
+  }
 }
 
 // --- Category Pills (no "All" pill; click active pill to deselect) ---
@@ -299,6 +312,10 @@ function loadImages() {
 
 // --- CSV Download ---
 function downloadCSV() {
+  if (typeof gtag === 'function') {
+    gtag('event', 'download_csv', { event_category: 'engagement', event_label: 'Download All Recommendations' });
+  }
+
   const headers = ['type', 'category', 'name', 'priority', 'link', 'tags', 'curator_note'];
   const rows = state.allRecs.map(rec => headers.map(col => {
     let val = rec[col] ?? '';
