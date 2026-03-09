@@ -186,11 +186,15 @@ function buildCardHTML(item) {
     ? `<a href="${escapeAttr(item.link)}" target="_blank" rel="noopener noreferrer" class="card-link-icon" title="View ${escapeHTML(item.name)}">↗</a>`
     : '';
 
-  const imageHTML = item.link
-    ? `<div class="card-image-wrap">
-         <img class="card-image" data-link="${escapeAttr(item.link)}" alt="${escapeHTML(item.name)}" />
+  const imageHTML = item.image_url
+    ? `<div class="card-image-wrap has-image">
+         <img class="card-image loaded" src="${escapeAttr(item.image_url)}" alt="${escapeHTML(item.name)}" />
        </div>`
-    : '';
+    : (item.link
+        ? `<div class="card-image-wrap">
+             <img class="card-image" data-link="${escapeAttr(item.link)}" alt="${escapeHTML(item.name)}" />
+           </div>`
+        : '');
 
   const noteHTML = item.curator_note
     ? `<p class="card-note">"${escapeHTML(item.curator_note)}"</p>`
