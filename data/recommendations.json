@@ -825,6 +825,340 @@
       "featured": false,
       "date_added": "2024-01-15",
       "image_url": null
+    },
+    {
+      "id": "app-001",
+      "type": "app",
+      "category": "",
+      "name": "Huckleberry",
+      "priority": "required",
+      "link": "https://apps.apple.com/us/app/huckleberry-baby-child/id1169136078",
+      "tags": [],
+      "curator_note": "I use this multiple times a day and find it helpful to track sleeping and eating. I don't think the paid version is worth it — free version is perfectly fine!",
+      "color_accent": "#C5D8F5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "app-002",
+      "type": "app",
+      "category": "",
+      "name": "Baby Sparks",
+      "priority": "nice to have",
+      "link": "https://apps.apple.com/ca/app/babysparks-development-app/id794574199",
+      "tags": [],
+      "curator_note": "Found this VERY helpful to understand milestones and also just keep us busy during wake windows! Subscription required, not necessary but I have used this for both kids and really enjoy it.",
+      "color_accent": "#C5D8F5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "app-003",
+      "type": "app",
+      "category": "",
+      "name": "Solid Starts",
+      "priority": "nice to have",
+      "link": "https://apps.apple.com/us/app/solid-starts-baby-first-foods/id1564189151",
+      "tags": [],
+      "curator_note": "You don't need to buy the subscription! Simply use the free version to search for ingredients and understand how to feed them to baby.",
+      "color_accent": "#C5D8F5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-001",
+      "type": "service",
+      "category": "",
+      "name": "Pelvic Floor Physio — Amber Watkins",
+      "priority": "required",
+      "link": "https://www.hellowellbe.com/amber-watkins",
+      "tags": [],
+      "curator_note": "Amber works at WellBe in the east end. Adore her. Have referred many people to her and all have appreciated her help.",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-002",
+      "type": "service",
+      "category": "",
+      "name": "Pelvic Floor Physio — Brittany Pereira",
+      "priority": "required",
+      "link": "https://www.anchorhp.ca/team/brittany-pereira",
+      "tags": [],
+      "curator_note": "When I moved to the west end, Amber referred me to Brittany. She is going on mat leave soon but truly so sweet and very knowledgeable (she helped train Amber!).",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-003",
+      "type": "service",
+      "category": "",
+      "name": "Lactation Consultant — Kate Sissons",
+      "priority": "nice to have",
+      "link": "https://www.katesissons.com/",
+      "tags": [],
+      "curator_note": "I tried 4 different lactation consultants before I found Kate through my pediatrician.",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-004",
+      "type": "service",
+      "category": "",
+      "name": "Pediatrician — Dr. Joanne Vaughan (KinderCare)",
+      "priority": "nice to have",
+      "link": "https://kindercare.ca/",
+      "tags": [],
+      "curator_note": "Incredible. We loved this clinic when we lived in the east end. Fantastic communication, clean, very easy to get same day appointments.",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-005",
+      "type": "service",
+      "category": "",
+      "name": "Pediatrician — Dr. Alexandra Hernandez (Kids Corner)",
+      "priority": "nice to have",
+      "link": "https://kidscorner.ca/",
+      "tags": [],
+      "curator_note": "Kind and very sweet. Very cute and clean location. Decent communication.",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "svc-006",
+      "type": "service",
+      "category": "",
+      "name": "Virtual Urgent Care — SickKids (Free!)",
+      "priority": "required",
+      "link": "https://www.sickkids.ca/en/emergency/virtual-urgent-care/",
+      "tags": [],
+      "curator_note": "Game changer if you can't get into see your Ped. They will see you virtually which is great for certain symptoms. E.g. for an eye infection, did not have to wait at a clinic and had prescription faxed to Shoppers within 30 mins. Incredible service.",
+      "color_accent": "#F5C5D5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-001",
+      "type": "content",
+      "category": "",
+      "name": "Expecting Better — Emily Oster",
+      "priority": "required",
+      "link": "https://www.amazon.ca/Expecting-Better-Conventional-Pregnancy-Wrong/dp/0143125702",
+      "tags": [
+        "book"
+      ],
+      "curator_note": "Great to read / listen to as an audiobook while pregnant! Helps you understand what is \"old wives tale\" versus actual things to be concerned about.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-002",
+      "type": "content",
+      "category": "",
+      "name": "Crib Sheet — Emily Oster",
+      "priority": "required",
+      "link": "https://www.amazon.ca/Cribsheet-Data-Driven-Relaxed-Parenting-Preschool/dp/0525559272",
+      "tags": [
+        "book"
+      ],
+      "curator_note": "Great to read / listen to as an audiobook once baby arrives.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-003",
+      "type": "content",
+      "category": "",
+      "name": "Two Parents and a Podcast",
+      "priority": "nice to have",
+      "link": "https://podcasts.apple.com/us/podcast/two-parents-a-podcast/id1737442386",
+      "tags": [
+        "podcast"
+      ],
+      "curator_note": "Topics can be helpful when relevant to you.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-004",
+      "type": "content",
+      "category": "",
+      "name": "Babe, Then What? Podcast",
+      "priority": "nice to have",
+      "link": "https://open.spotify.com/show/17A2DWiY3KzFtqj4sWQRF1",
+      "tags": [
+        "podcast"
+      ],
+      "curator_note": "Topics can be helpful when relevant to you. The hosts can be difficult to tolerate at times but the content is Canadian which is nice.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-005",
+      "type": "content",
+      "category": "",
+      "name": "Taking Cara Babies — Sleep Schedule Blog",
+      "priority": "required",
+      "link": "https://www.takingcarababies.com/blogs/sleep-schedules/1-month-old-sleep-schedule",
+      "tags": [
+        "blog"
+      ],
+      "curator_note": "Free resource, very helpful for understanding wake windows at different ages. I read the monthly one every month.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "con-006",
+      "type": "content",
+      "category": "",
+      "name": "Taking Cara Babies — Newborn Sleep Course",
+      "priority": "nice to have",
+      "link": "https://www.takingcarababies.com/products/newborn-sleep-bundle",
+      "tags": [
+        "course"
+      ],
+      "curator_note": "Worth the cost imo — started at 5 weeks postpartum with my first and it was a game changer for my understanding of baby sleep.",
+      "color_accent": "#F5E6C5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-001",
+      "type": "activity",
+      "category": "",
+      "name": "Music Class",
+      "priority": "required",
+      "link": "https://www.musictogether.com/",
+      "tags": [
+        "any age"
+      ],
+      "curator_note": "Highly recommend doing a music class. Can start as early as 3 months but they will engage more starting at 5 months. We loved the Music Together program.",
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-002",
+      "type": "activity",
+      "category": "",
+      "name": "Baby & Mom Workout Classes",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "0–12 months"
+      ],
+      "curator_note": "Look for local ones! Such a nice thing to do for yourself but also to get baby out the door and into a different environment. Great opportunity to meet other moms as well.",
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-003",
+      "type": "activity",
+      "category": "",
+      "name": "Play Gyms",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "15 months+"
+      ],
+      "curator_note": null,
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-004",
+      "type": "activity",
+      "category": "",
+      "name": "Early On Centers",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "any age"
+      ],
+      "curator_note": null,
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-005",
+      "type": "activity",
+      "category": "",
+      "name": "Library",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "any age"
+      ],
+      "curator_note": null,
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-006",
+      "type": "activity",
+      "category": "",
+      "name": "Aquarium",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "12 months+"
+      ],
+      "curator_note": null,
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
+    },
+    {
+      "id": "act-007",
+      "type": "activity",
+      "category": "",
+      "name": "Zoo",
+      "priority": "nice to have",
+      "link": null,
+      "tags": [
+        "12 months+"
+      ],
+      "curator_note": null,
+      "color_accent": "#C5EBD5",
+      "featured": false,
+      "date_added": "2024-01-15",
+      "image_url": null
     }
   ]
 }

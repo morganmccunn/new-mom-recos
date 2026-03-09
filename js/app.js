@@ -215,7 +215,7 @@ function buildCardHTML(item) {
               <span class="card-name">${escapeHTML(item.name)}</span>
               ${linkHTML}
             </div>
-            <span class="card-priority ${priorityClass}">${priorityLabel}</span>
+            ${item.type === 'product' ? `<span class="card-priority ${priorityClass}">${priorityLabel}</span>` : ''}
           </div>
           ${imageHTML}
         </div>
@@ -250,7 +250,7 @@ function buildListRowHTML(item) {
         <div class="list-row-top">
           <span class="list-row-name">${escapeHTML(item.name)}</span>
           <div class="list-row-meta">
-            <span class="card-priority ${priorityClass}">${priorityLabel}</span>
+            ${item.type === 'product' ? `<span class="card-priority ${priorityClass}">${priorityLabel}</span>` : ''}
             ${linkHTML}
           </div>
         </div>
@@ -324,7 +324,7 @@ function downloadCSV() {
 
 // --- Icons ---
 function getIcon(name) {
-  const icons = { bag: '🛍', phone: '📱', star: '⭐' };
+  const icons = { bag: '🛍', phone: '📱', star: '⭐', book: '📚', heart: '🤍' };
   return icons[name] || '';
 }
 
